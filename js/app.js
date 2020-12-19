@@ -12,6 +12,7 @@ new Swiper('.mainslider', {
 	touthAngle: 45,
 	grabCursor: true,
 	autoheight: true,
+	slidesPerGroup: 2,
 
 });
 var ua = window.navigator.userAgent;
