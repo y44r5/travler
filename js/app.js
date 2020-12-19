@@ -7,6 +7,12 @@ new Swiper('.mainslider', {
 	},
 	slidesPerView: 4,
 	loop: true,
+	simulateTouch: true,
+	touthRadio: 1,
+	touthAngle: 45,
+	grabCursor: true,
+	autoheight: true,
+
 });
 var ua = window.navigator.userAgent;
 var msie = ua.indexOf("MSIE ");
