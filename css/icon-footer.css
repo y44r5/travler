@@ -1,0 +1,80 @@
+@font-face {
+	font-family: "icomoon_plus";
+	src: url("../fonts/icomoon_plus.eot?uzy8je");
+	src: url("../fonts/icomoon_plus.eot?uzy8je#iefix") format("embedded-opentype"),
+		url("../fonts/icomoon_plus.ttf?uzy8je") format("truetype"),
+		url("../fonts/icomoon_plus.woff?uzy8je") format("woff"),
+		url("../fonts/icomoon_plus.svg?uzy8je#icomoon_plus") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="_icon-"]::before,
+[class*=" _icon-"]::before {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "icomoon_plus" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+._icon-logo:before {
+	content: "\e902";
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	font-size: 50px;
+}
+@media (max-width: 1005px) {
+	._icon-logo:before {
+		font-size: calc(41px + 9 * ((100vw - 320px) / 685));
+		top: calc(5px + 0 * ((100vw - 320px) / 685));
+	}
+}
+._icon-plus {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 9px 10px 7px 9px;
+	background-color: #7125b8;
+}
+@media (max-width: 1005px) {
+	._icon-plus {
+		padding-top: calc(2.5px + 6.5 * ((100vw - 320px) / 685));
+		padding-bottom: calc(1px + 6 * ((100vw - 320px) / 685));
+		padding-left: calc(3px + 6 * ((100vw - 320px) / 685));
+		padding-right: calc(3.5px + 5.5 * ((100vw - 320px) / 685));
+	}
+}
+
+._icon-plus:before {
+	content: "\e903";
+	width: 10px;
+	height: 10px;
+	color: #fff;
+}
+._icon-Shape_14:before {
+	content: "\e904";
+	margin-right: 6px;
+}
+._icon-twitter:before {
+	content: "\e905";
+	margin: 0px 9px 0px 0px;
+}
+._icon-email:before {
+	content: "\e900";
+	margin: 0px 6px 0px 0px;
+}
+._icon-facebook:before {
+	content: "\e901";
+	margin: 0px 6px 0px 0px;
+}
