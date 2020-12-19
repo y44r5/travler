@@ -49,7 +49,7 @@
 }
 @media (max-width: 1005px) {
 	._icon-plus {
-		padding-top: calc(3.5px + 6.5 * ((100vw - 320px) / 685));
+		padding-top: calc(2.5px + 6.5 * ((100vw - 320px) / 685));
 		padding-bottom: calc(0px + 6 * ((100vw - 320px) / 685));
 		padding-left: calc(3px + 6 * ((100vw - 320px) / 685));
 		padding-right: calc(3.5px + 5.5 * ((100vw - 320px) / 685));
